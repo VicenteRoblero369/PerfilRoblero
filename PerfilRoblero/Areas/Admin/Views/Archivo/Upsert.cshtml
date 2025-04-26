@@ -1,0 +1,114 @@
+﻿@model PerfilRoblero.Modelos.Archivo
+@using PerfilRoblero.Utilidades
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var titulo = "Crear Nuevo CV";
+}
+
+<form method="post" enctype="multipart/form-data">
+    @if (Model.Id != 0)
+    {
+        titulo = "Editar Archivo";
+        <input asp-for="Id" hidden />
+        <input asp-for="ArchivoUrl" hidden />
+    }
+
+    <div class="border p-3">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+         @if (User.IsInRole(DS.Role_Admin))
+    {
+        <div class="row">
+            <h2 class="text-info">@titulo</h2>
+        </div>
+        
+        <div class="row">
+            <div class="col-8">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="text-light">Nombre CV</label>
+                            <input asp-for="Nombre" class="form-control" />
+                            <span asp-validation-for="Nombre" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class ="text-light">Descripcion del CV</label>
+                            <input asp-for="Descripcion" class="form-control" />
+                            <span asp-validation-for="Descripcion" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="text-light">Estado</label>
+                            <select asp-for="Estado" class="form-select">
+                                <option value="true">Activo</option>
+                                <option value="false">Inactivo</option>
+                            </select>
+                            <span asp-validation-for="Estado" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label class="text-light">Subir Archivo</label>
+                            <input type="file" accept="image/png, image/gif, image/jpeg, pdf" name="files" id="imagenId" class="form-control" />
+                            <span asp-validation-for="ArchivoUrl" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <br />
+                  
+                    <div class="d-grid gap-2 d-md-block">
+                        @if (Model.Id != 0)
+                        {
+                            <partial name="_BotonesActualizarYRegresar" model="Model.Id" />
+                        }
+                        else
+                        {
+                            <button type="submit" onclick="return validarImagen()" class="btn btn-primary"><i class="bi bi-plus-square-fill"></i> Crear</button>
+                            <a asp-action="Index" class="btn btn-success "><i class="bi bi-arrow-return-left"></i> Regresar</a>
+                        }
+
+                    </div>
+
+
+                </div>
+            </div>
+            
+        </div>
+        }
+        <div class="container p-5 my-5 border rounded-3">
+            @if (Model.Id != 0)
+            {
+                <div class="alert alert-primary" style="font-size: 30px;" role="alert">
+                    Gracias por Ver mi CV!
+                </div>
+                <a class="btn btn-info" style="width: 200px; height: 80px; cursor: pointer; font-size: 30px;" href="@DS.ImagenRuta@Model.ArchivoUrl" target="_blank"><i class="bi bi-cloud-arrow-down"></i>Visualizar</a>
+                <a class="btn btn-outline-info" style="width: 200px; height: 80px; cursor: pointer; font-size: 30px;" onfocus="false" asp-area="Admin" asp-controller="Archivo" asp-action="Index"><i class="bi bi-arrow-return-left"></i>Retroceder</a>
+            }
+        </div>
+
+        
+
+    </div>
+
+
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+
+        function validarImagen() {
+            if (document.getElementById("imagenId").value=="")
+            {
+                swal("Error", "Seleccione una Imagen o Archivo!", "error")
+                return false;
+            }
+            return true;
+        }
+
+    </script>
+
+}

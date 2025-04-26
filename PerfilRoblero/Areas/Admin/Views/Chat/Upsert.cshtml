@@ -1,0 +1,60 @@
+﻿@model PerfilRoblero.Modelos.Chat
+@using PerfilRoblero.Utilidades
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var titulo = "Enviar Mensage Corto";
+    //var tituloDos = "Visualizar Formato";
+}
+<form method="post" enctype="multipart/form-data">
+    @if (Model.Id != 0)
+    {
+        titulo = "";
+    }
+    <div class="border p-3 rounded-1">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="row">
+            <h2 class="text-info">@titulo</h2>
+        </div>
+        <div class="container">
+            <div class="container mt-5 bg-secondary shadow p-2 mb-3 rounded responsive">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <label class="text-light">Mensage A Enviar</label>
+                                    <input asp-for="Textos" class="form-control" />
+                                    <span asp-validation-for="Textos" class="text-danger"></span>
+                                </div>
+                            </div>                          
+                                <br />
+                                <br />
+                                <div class="d-grid gap-2 d-md-block">
+                                    @if (Model.Id != 0)
+                                    {
+                                        <partial name="_BotonesActualizarYRegresar" model="Model.Id" />
+                                    }
+                                    else
+                                    {
+                                    <button type="submit" onclick="return validarImagen()" class="btn btn-primary"><i class="bi bi-send-check-fill"></i></button>
+                                        <a asp-action="Index" class="btn btn-success "><i class="bi bi-arrow-return-left"></i> Regresar</a>
+                                    }
+
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+         </div>
+
+     </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    
+}

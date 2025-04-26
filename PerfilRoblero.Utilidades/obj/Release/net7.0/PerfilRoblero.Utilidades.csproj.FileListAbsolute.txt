@@ -1,0 +1,12 @@
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Utilidades\bin\Release\net7.0\PerfilRoblero.Utilidades.deps.json
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Utilidades\bin\Release\net7.0\PerfilRoblero.Utilidades.dll
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Utilidades\bin\Release\net7.0\PerfilRoblero.Utilidades.pdb
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Utilidades\obj\Release\net7.0\PerfilRoblero.Utilidades.csproj.AssemblyReference.cache
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Utilidades\obj\Release\net7.0\PerfilRoblero.Utilidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Utilidades\obj\Release\net7.0\PerfilRoblero.Utilidades.AssemblyInfoInputs.cache
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Utilidades\obj\Release\net7.0\PerfilRoblero.Utilidades.AssemblyInfo.cs
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Utilidades\obj\Release\net7.0\PerfilRoblero.Utilidades.csproj.CoreCompileInputs.cache
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Utilidades\obj\Release\net7.0\PerfilRoblero.Utilidades.dll
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Utilidades\obj\Release\net7.0\refint\PerfilRoblero.Utilidades.dll
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Utilidades\obj\Release\net7.0\PerfilRoblero.Utilidades.pdb
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Utilidades\obj\Release\net7.0\ref\PerfilRoblero.Utilidades.dll

@@ -1,0 +1,57 @@
+﻿@using PerfilRoblero.Utilidades
+@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+    .responsive {
+    width: 100%;
+    height: auto;
+    }
+
+    .btnCr {
+        width: 200px;
+        height: 40px;
+    }
+</style>
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-sm-5">
+            <h1 class="text-light">Vicente Roblero Roblero</h1>
+            <br/>
+            <h4 class="text-light">Ingenería Sistemas Computacionales</h4>
+            <br/>
+            <h7 style="text-align: justify;" class="text-light text">
+                Ingeniería en Sistemas Computacionales con más de 1 año de experiencia,
+                especializado en Software y en Telecomunicaciones apasionado en
+                conocer las tecnologías y adaptarse, tanto la solución y la corrección de la
+                misma, así como también en el desarrollo de software de aplicaciones
+                web, lenguajes de programación dominados C# asp.net Core 7 MVC,
+                JavaScript, estructura de página HTML Y CSS, diseño BOOTSTRAP, Base de
+                datos SQL Y MySQL.
+            </h7>
+            <br/>
+            <div class="container mt-4">
+                <button type="button" class="btn btn-outline-secondary" data-bs-toggle="collapse" data-bs-target="#demo">Mis Redes Sociales</button>
+                <div id="demo" class="collapse">
+                    <br/>
+                    <a class="btn btn-outline-primary" href="https://www.facebook.com/vicente.roblero.r4/" target="_blank"><i class="bi bi-facebook"></i>Facebook</a>
+                    <a class="btn btn-outline-success" href="https://t.me/RobleroV369"><i class="bi bi-send-fill"></i>Telegram</a>
+                    <a class="btn btn-outline-danger" asp-area="Identity" asp-page="/Account/Login"><i class="bi bi-person"></i>Contactar Admin</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <img class="rounded-pill responsive" src="~/imagenes/RblVr6.png" width="100" height="100" />
+        </div>
+        <div class="col-sm-4">
+            @if(User.IsInRole(DS.Role_Admin) || User.IsInRole(DS.Role_Usuario))
+            {
+                <a class="btn btn-outline-info" onfocus="false" asp-area="Admin" asp-controller="Chat" asp-action="Index"><i class="bi bi-envelope-open-fill">Chat</i></a>
+            }
+                <a class="btn btn-outline-info" onfocus="false" asp-area="Admin" asp-controller="Archivo" asp-action="Index"><i class="bi bi-card-checklist"></i>Descargar CV</a>       
+            <br/>
+            <br/>
+            <img class="rounded-pill responsive" src="~/imagenes/Im.jpg" width="600" height="500" />
+        </div>
+    </div>
+</div>

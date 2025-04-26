@@ -1,0 +1,15 @@
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Modelos\bin\Release\net7.0\PerfilRoblero.Modelos.deps.json
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Modelos\bin\Release\net7.0\PerfilRoblero.Modelos.dll
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Modelos\bin\Release\net7.0\PerfilRoblero.Modelos.pdb
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Modelos\bin\Release\net7.0\PerfilRoblero.Utilidades.dll
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Modelos\bin\Release\net7.0\PerfilRoblero.Utilidades.pdb
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Modelos\obj\Release\net7.0\PerfilRoblero.Modelos.csproj.AssemblyReference.cache
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Modelos\obj\Release\net7.0\PerfilRoblero.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Modelos\obj\Release\net7.0\PerfilRoblero.Modelos.AssemblyInfoInputs.cache
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Modelos\obj\Release\net7.0\PerfilRoblero.Modelos.AssemblyInfo.cs
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Modelos\obj\Release\net7.0\PerfilRoblero.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Modelos\obj\Release\net7.0\PerfilRo.B28EFAC9.Up2Date
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Modelos\obj\Release\net7.0\PerfilRoblero.Modelos.dll
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Modelos\obj\Release\net7.0\refint\PerfilRoblero.Modelos.dll
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Modelos\obj\Release\net7.0\PerfilRoblero.Modelos.pdb
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.Modelos\obj\Release\net7.0\ref\PerfilRoblero.Modelos.dll

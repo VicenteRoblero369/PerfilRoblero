@@ -1,0 +1,50 @@
+﻿@using PerfilRoblero.Utilidades
+@{
+    ViewData["Title"] = "CV";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .btn-alert {
+    background-color: blueviolet;
+    }
+</style>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-6">
+            <h2 class="text-primary">Currículum Vitae</h2>
+        </div>
+        <div class="col-lg-6">
+            <a class="btn btn-outline-warning" asp-area="Profile" asp-controller="Home" asp-action="Index"><i class="bi bi-house-check"></i>Inicio </a>
+            @if(User.IsInRole(DS.Role_Admin))
+            {
+                <a class="btn btn-outline-primary" asp-action="Upsert"> <i class="bi bi-plus-square-fill"></i> Subir Nuevo CV </a>          
+            }
+        </div>
+    </div>
+    <div class="alert alert-success alert-dismissible">
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        <strong>Descragar CV</strong> Presione en el icono <i class="bi bi-pencil-square"></i>.
+    </div>
+    <br />
+
+    <div class="p-4 border rounded bg-light">
+        <table id="tblDatos" class="table table-responsive table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Estado</th>                  
+                    <th></th>                   
+                </tr>
+            </thead>
+        </table>
+    </div>
+ </div>
+
+
+@section Scripts {
+    <script src="~/js/archivo.js"></script>
+
+}
+

@@ -1,0 +1,17 @@
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.AccesoDatos\bin\Debug\net7.0\PerfilRoblero.AccesoDatos.deps.json
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.AccesoDatos\bin\Debug\net7.0\PerfilRoblero.AccesoDatos.dll
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.AccesoDatos\bin\Debug\net7.0\PerfilRoblero.AccesoDatos.pdb
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.AccesoDatos\bin\Debug\net7.0\PerfilRoblero.Modelos.dll
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.AccesoDatos\bin\Debug\net7.0\PerfilRoblero.Utilidades.dll
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.AccesoDatos\bin\Debug\net7.0\PerfilRoblero.Modelos.pdb
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.AccesoDatos\bin\Debug\net7.0\PerfilRoblero.Utilidades.pdb
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.AccesoDatos\obj\Debug\net7.0\PerfilRoblero.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.AccesoDatos\obj\Debug\net7.0\PerfilRoblero.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.AccesoDatos\obj\Debug\net7.0\PerfilRoblero.AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.AccesoDatos\obj\Debug\net7.0\PerfilRoblero.AccesoDatos.AssemblyInfo.cs
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.AccesoDatos\obj\Debug\net7.0\PerfilRoblero.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.AccesoDatos\obj\Debug\net7.0\PerfilRo.B297619F.Up2Date
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.AccesoDatos\obj\Debug\net7.0\PerfilRoblero.AccesoDatos.dll
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.AccesoDatos\obj\Debug\net7.0\refint\PerfilRoblero.AccesoDatos.dll
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.AccesoDatos\obj\Debug\net7.0\PerfilRoblero.AccesoDatos.pdb
+C:\Users\vicnt\source\repos\PerfilRoblero\PerfilRoblero.AccesoDatos\obj\Debug\net7.0\ref\PerfilRoblero.AccesoDatos.dll
